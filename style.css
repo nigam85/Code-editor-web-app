@@ -1,0 +1,25 @@
+/* Block */
+.code-editor {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  max-width: 100%;
+}
+
+/* Elements */
+.editor-toolbar {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  margin: 5px 0px 5px 5px;
+}
+
+#code-display {
+  font-family: "Courier New", monospace;
+  white-space: normal;
+  background-color: #fff;
+  height: 100vh;
+  border: 1px solid #ccc;
+  outline: none;
+  overflow-y: scroll;
+}
